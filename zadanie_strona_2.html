@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="zadanie_strona.css">
+    </head>
+    <body>
+        <h1><strong>Witaj na mojej stronie internetowej!</strong></h1>
+        <h2><strong>Kontakt</strong></h2>
+        <ul>
+            <li><strong>Telefon:</strong> +48 797722100</li>
+            <li><strong>E-mail:</strong> dorota.jagodzka01@gmail.com</li>
+        </ul>
+        <h3><strong>Wyślij wiadomość</strong></h3>
+        <div id="send_form_status"></div>
+            <form method="post" action="/send_form.php" id="contact_form">
+            <div><label for="message">Treść wiadomości</label></div>
+            <div><textarea name="message" id="message" class="formField"></textarea></div>
+            <div><button id="sendBtn">Wyślij</button></div>
+        </form>
+    </body>
+</html>
